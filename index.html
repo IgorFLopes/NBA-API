@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto NBA</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Icone imagem NBA -->
+    <link rel="shortcut icon" href="img/logo.nba.png" type="image/x-icon">
+    <!-- JS -->
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Basquete NBA</h1>
+        <img src="img/logo.nba2.png" alt="logo-nba" id="logo-nba">
+    </header>
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>O basquete é um esporte coletivo jogado entre duas equipes de cinco jogadores cada. O objetivo do jogo é marcar pontos ao introduzir a bola no cesto da equipe adversária, um aro horizontal elevado, que possui 46 cm de diâmetro e fica a uma altura de 3,05 metros do solo.</p>
+        <p>O jogo foi inventado em 1891 pelo professor de educação física James Naismith nos Estados Unidos. É um dos esportes mais populares do mundo e é jogado tanto em ambientes internos quanto externos.</p>
+        <p>A NBA (National Basketball Association) é a principal liga de basquete profissional do mundo e é composta por 30 equipes, divididas em duas conferências: Leste e Oeste.</p>
+        <div class="image-container">
+            <img src="img/Atlanta.02.png" alt="Imagem do Basquete" id="team-atlanta">
+            <img src="img/Boston.02.png" alt="Imagem do Basquete" id="team-boston">
+            <img src="img/charlotte.02.png" alt="Imagem do Basquete" id="team-charlotte">
+            <img src="img/Chicago.02.png" alt="Imagem do Basquete" id="team-chicago">
+            <img src="img/Cavs.02.png" alt="Imagem do Basquete" id="team-cavs">
+            <img src="img/Clippers.02.png" alt="Imagem do Basquete" id="team-clippers">
+            <img src="img/Dallas.02.png" alt="Imagem do Basquete" id="team-mavericks">
+            <img src="img/denver.02.png" alt="Imagem do Basquete" id="team-nuggets">
+            <img src="img/pistons.02.png" alt="Imagem do Basquete" id="team-pistons">
+            <img src="img/golden.02.png" alt="Imagem do Basquete" id="team-warriors">
+            <img src="img/Indiana.02.png" alt="Imagem do Basquete" id="team-pacers">
+            <img src="img/lakers.02.png" alt="Imagem do Basquete" id="team-lakers">
+            <img src="img/miami.02.png" alt="Imagem do Basquete" id="team-heat">
+            <img src="img/time.MGrizzlies.webp" alt="Imagem do Basquete" id="team-grizzlies">
+            <img src="img/Milwaukee.02.png" alt="Imagem do Basquete" id="team-bucks">
+            <img src="img/Washington.02.png" alt="Imagem do Basquete" id="team-wizards">
+            <img src="img/Brooklym.02.png" alt="Imagem do Basquete" id="team-nets">
+            <img src="img/jazz.02.png" alt="Imagem do Basquete" id="team-jazz">
+            <img src="img/toronto.02.png" alt="Imagem do Basquete" id="team-raptors">
+            <img src="img/san.02.png" alt="Imagem do Basquete" id="team-spurs">
+            <img src="img/Sacramento.02.png" alt="Imagem do Basquete" id="team-kings">
+            <img src="img/Houston.02.png" alt="Imagem do Basquete" id="team-rockets">
+            <img src="img/Phoenix.02.png" alt="Imagem do Basquete" id="team-suns">
+            <img src="img/Portland.02.png" alt="Imagem do Basquete" id="team-blazers">
+            <img src="img/Oklahoma.02.png" alt="Imagem do Basquete" id="team-thunder">
+            <img src="img/Minnesota.02.png" alt="Imagem do Basquete" id="team-timberwolves">
+            <img src="img/new.02.png" alt="Imagem do Basquete" id="team-pelicans">
+            <img src="img/Orlando.02.png" alt="Imagem do Basquete" id="team-magic">
+            <img src="img/Philadelphia.02.webp" alt="Imagem do Basquete" id="team-76ers">
+            <img src="img/knicks.02.png" alt="Imagem do Basquete" id="team-knicks">
+        </div>
+    </section>
+    <section id="list-prin">
+        <div id="team-list">
+            <h2>Times API</h2>
+        <button id="btn2">Listar</button>
+        </div>
+            <div id="list-jogadores">
+            <h2>Jogadores API</h2>
+            <button id="btn">Listar</button>
+        </div>
+    </section>
+</body>
+</html>
+
+
